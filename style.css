@@ -1,0 +1,331 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #F3F0D7;
+}
+
+#header{
+    /* background-color: white; */
+    max-width: 1400px;
+    margin: 0 auto;
+    /* border: 2px solid palevioletred; */
+    padding: 50px 0;
+}
+
+
+
+.social{
+    border-top: 4px solid #8E0505;
+    display: flex;
+    justify-content: space-between;
+    background-color: #DFD8CA;
+    padding: 3px 0;
+    color: hsl(210, 10%, 33%);
+    font-size: 1rem;
+
+}
+
+@media (max-width:750px){
+    .social{
+        display: block;
+        font-size: .9rem;
+    }
+}
+
+
+@media (max-width:750px){
+    .socials{
+        display: flex;
+        margin: 20px;
+    }
+}
+
+@media (max-width: 750px){
+    .twi{
+        position: relative;
+        right: 120px;
+    }
+}
+
+
+@media (max-width: 750px){
+    .ig{
+        position: relative;
+        right: 240px;
+       
+
+    }
+}
+
+
+.edu{
+    display: flex;
+    gap: 50px;
+}
+
+ul{
+    text-decoration: none;
+    list-style: none;
+    
+}
+
+
+ul a{
+    text-decoration: none;
+    list-style: none;
+    color: hsl(210, 10%, 33%);
+}
+
+
+.socials{
+    align-self: right;
+    margin-right: 20px;
+    gap: 50px;
+    border: 0 solid white;
+}
+
+.fa-facebook:hover{
+    background-color: #0F00FF;
+    padding: 4px;
+}
+
+.fa-twitter:hover{
+    background-color: #2F86A6;
+    padding: 4px;
+}
+
+.fa-instagram:hover{
+    background-color: #88E0EF;
+    padding: 4px;
+}
+
+.main{
+    /* border: 4px solid blue; */
+    display: flex;
+    justify-content: space-between;
+    border-left: 4px solid #DFD8CA;
+    border-right: 4px solid #DFD8CA;
+    
+}
+
+
+@media (max-width: 750px){
+    .main{
+        display: block;
+        text-align: center;
+        margin: 0 auto;
+    }
+    .logo__unilag{
+        width: 50%;
+    }
+    .wrap{
+      
+        font-size: .6rem;
+        text-align: center;
+    }
+    h2{
+        font-size: .7rem;
+        display: inline;
+        margin: 30px 0;
+    }
+    .media{
+        display: inline-block;
+        flex-wrap: wrap; 
+        margin: 20px;     
+    }
+    .astext{
+        font-size: .6rem;
+        margin: 0 auto;
+    }
+    .bbb{
+        margin-top: 20px;
+    }
+    .search{
+        display: block;
+       
+        padding: 0;
+        margin: 0;
+    }
+    .btn{
+        font-size: .4rem;
+        display: block;
+        width: 49%;
+       
+    
+    }
+}
+
+
+
+.wrap{
+    padding: 30px 0 30px 0;
+}
+.unilag__logo{
+    width: 50%;
+}
+
+
+@media (max-width: 750px){
+    .edu{
+      display: block; 
+      margin: 20px;
+      
+    }
+    .envelope{
+        margin-top: 20px;
+        border: 3px solid red;
+    }
+}
+
+img.mic{
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    vertical-align: top;
+}
+img.google{
+    display: inline-block;
+    cursor: pointer;
+    position: relative;
+    vertical-align: text-top;
+}
+
+
+.astext{
+    display: inline-block;
+    text-align: left;
+    margin-left: 1%;
+    vertical-align: top;
+}
+
+.bbba{
+    width: 400px;
+    padding: 10px;
+}
+
+ .bbb{
+    width: 300px;
+    padding: 10px;
+    margin-left: 10px;
+} 
+.media{
+    display: flex;
+   
+    
+}
+
+h2{
+    font-size: 1.1rem;
+    text-align: right;
+    color: hsl(201, 11%, 66%);
+    margin-bottom: 30px;
+}
+
+.search{
+    /* padding-bottom: 40px; */
+    background-color: #444941;
+    display: flex;
+
+}
+
+.btn{
+    border: none;
+    background-color: #8E0505;
+	color: #fff;
+	font-size: 16px;
+	padding: 15px 35px;
+	margin: 0;
+}
+
+.btn__2{
+    border: none;
+    background-color: #444941;
+	color: #fff;
+	font-size: 16px;
+	padding: 15px 35px;
+	margin: 0;
+}
+
+.btn__2:hover{
+    background-color: #8E0505;
+}
+
+.search__icon{
+    margin-left: auto;
+    background-color: #8E0505;
+    width: 50px;
+    color: white;
+  
+}
+
+#slider{
+    overflow: hidden;
+}
+#slider figure{
+    position: relative;
+    width: 500%;
+    margin: 0;
+    left: 0;
+    animation: 10s slider infinite;
+}
+
+#slider figure img{
+    width: 10%;
+    float: left;
+}
+
+@keyframes slider {
+    0% {
+        left: 0;
+    }
+    20% {
+        left: 0;
+    }
+    25%{
+        left: -100;
+    }
+    45%{
+        left: -100%;
+    }
+    50%{
+        left: -200%;
+    }
+    70%{
+        left: -200%;
+    }
+    75%{
+        left: -300%;
+    }
+    95%{
+        left: -300%;
+    }
+    100%{
+        left: -400;
+    }
+}
+
+.copyright{
+    background-color: #444941;
+    padding-bottom: 30px;
+    margin: 30px 0;
+}
+.copy__text{
+    color: white;
+    margin-left: 30px;
+    position: relative;
+    top: 15px;
+    font-size: .9rem;
+
+}
+@media(max-width: 750px){
+    .copy__text{
+        display: block;
+        font-size: .6rem;
+    }
+}
