@@ -7,7 +7,7 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #Fff;
+    background-color: white;
 }
 
 #header{
@@ -175,9 +175,10 @@ ul a{
     }
     .envelope{
         margin-top: 21px;
+        border: none;
     }
 }
-
+/* sub menu */
 img.mic{
     display: inline-block;
     cursor: pointer;
@@ -223,7 +224,6 @@ h2{
 }
 
 .search{
-    /* padding-bottom: 40px; */
     background-color: #444941;
     display: flex;
 
