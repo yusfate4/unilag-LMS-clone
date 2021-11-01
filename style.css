@@ -22,7 +22,7 @@ body{
     border-top: 4px solid #8E0505;
     display: flex;
     justify-content: space-between;
-    background-color: #DFD8CA;
+    background-color: #FEFBF3;
     padding: 3px 0;
     color: hsl(210, 10%, 33%);
     font-size: 1rem;
@@ -104,7 +104,6 @@ ul a{
 }
 
 .main{
-
     display: flex;
     justify-content: space-between;
     border-left: 4px solid #DFD8CA;
@@ -146,7 +145,6 @@ ul a{
     }
     .search{
         display: block;
-       
         padding: 0;
         margin: 0;
     }
@@ -176,7 +174,7 @@ ul a{
       
     }
     .envelope{
-        margin-top: 20px;
+        margin-top: 21px;
     }
 }
 
