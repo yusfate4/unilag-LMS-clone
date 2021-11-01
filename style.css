@@ -7,14 +7,12 @@
 
 body{
     font-family: 'Roboto', sans-serif;
-    background-color: #F3F0D7;
+    background-color: #Fff;
 }
 
 #header{
-    /* background-color: white; */
     max-width: 1400px;
     margin: 0 auto;
-    /* border: 2px solid palevioletred; */
     padding: 50px 0;
 }
 
@@ -106,7 +104,7 @@ ul a{
 }
 
 .main{
-    /* border: 4px solid blue; */
+
     display: flex;
     justify-content: space-between;
     border-left: 4px solid #DFD8CA;
@@ -119,7 +117,7 @@ ul a{
     .main{
         display: block;
         text-align: center;
-        margin: 0 auto;
+        margin: 0;
     }
     .logo__unilag{
         width: 50%;
@@ -179,7 +177,6 @@ ul a{
     }
     .envelope{
         margin-top: 20px;
-        border: 3px solid red;
     }
 }
 
